@@ -104,12 +104,13 @@
 /*CONTENT*/
 .container {
   /*sets up flexbox*/
-  display: flex;
+  width:auto;
   flex-direction: column;
 }
 
 .row {
   display: flex;
+ ;
 }
 
 .white {
@@ -124,7 +125,7 @@
   flex: 0 0 66.6%;
   margin-top: 2rem;
   margin-bottom: 3rem;
- 
+  
 }
 
 .side-content-sm {
@@ -149,6 +150,7 @@ h2 {
 .content-body {
   line-height: 1.5;
   color: rgba(0, 0, 0, 0.7);
+ 
   
 }
 /*about */
@@ -263,7 +265,7 @@ h4 {
 }
 /*CONTACT*/
 .blue {
-  background: #2597e9;
+ /* background: #2597e9;*/
   text-align: center;
 }
 
@@ -314,6 +316,10 @@ h4 {
 .container .jumbotron {
   box-shadow: 0 0 50px #60baee;
   border: 5px solid #3F0C1F;
+  max-width: 1200px;
+ 
+  margin:auto;
+  margin-top: 100px;
 }
 
 #menu-tile, #map-tile {
@@ -346,7 +352,4 @@ body {
   background: rgba(0, 0, 0);
   font-family: 'Oxygen', sans-serif;
   margin: 0;
-}
-.copyright{
-  color: #ffffff;
 }
