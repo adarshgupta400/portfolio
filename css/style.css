@@ -25,7 +25,7 @@ body {
 .navbar a {
   font-weight: 200;
   color: rgb(255, 255, 255);
-  padding: 14px 16px;
+  padding: 20px 18px;
   text-decoration: none;
 
 }
@@ -40,10 +40,10 @@ body {
 
 /*JUMBOTRON*/
 .jumbotron {
-  height: 70vh; /*height to 0% of view height*/
+  height: 90vh; /*height to 0% of view height*/
   background: #31b0d5; /*background color to blue*/
   margin-bottom: 0; /*no bottom margin*/
-  box-shadow: ;
+  
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -53,18 +53,19 @@ body {
 
 .jumbotron-text {
   /*TAGLINE UNDER NAME*/
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.5em;
   color: rgb(100, 3, 3);
   text-align: center;
-  padding-top: 150px;
+  padding-top: 30px;
+  
 }
 
 .jumbotron-text h1 {
   /*YOUR NAME*/
  
   font-weight: 800;
-  font-size: 3em;
+  font-size: 2em;
   margin-bottom: 0;
 }
 
@@ -289,8 +290,8 @@ h4 {
 
 /* HOME PAGE */
 .container .jumbotron {
-  box-shadow: 0 0 50px #3F0C1F;
-  border: 2px solid #3F0C1F;
+  box-shadow: 0 0 50px #023655;
+  border: 5px solid #3F0C1F;
 }
 
 #menu-tile, #specials-tile, #map-tile {
@@ -300,4 +301,15 @@ margin: 25px;
   background: rgba(51, 47, 47, 0.658);
 }
 
+
+img.pic{
+  border-radius: 50%;
+  border:3px solid rgb(3, 62, 117);
+  width:300px;
+  height:300px;
+ 
+}
+div.img{
+  text-align: center;
+}
 /* END HOME PAGE */
