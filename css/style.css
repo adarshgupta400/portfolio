@@ -21,7 +21,16 @@
   color: rgb(255, 255, 255);
   padding: 20px 18px;
   text-decoration: none;
+  border: 2px solid #140663f3;
+  border-style:inset;
+  margin: 5px 2px;
+  padding: auto;
+  height: 50px;
+  width: 100px;
 
+}
+.navbar a:hover{
+  background-color: blue;
 }
 
 .anchor {
