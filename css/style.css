@@ -150,11 +150,12 @@
 
 
 h2 {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 30px;
   color: #8a73f5;
   text-transform: uppercase;
   text-align: center;
+  font-style: bold;
 }
 
 .content-body {
@@ -330,16 +331,18 @@ h4 {
   box-shadow: 0 0 50px #60baee;
   border: 5px solid #3F0C1F;
   max-width: 1200px;
+  height: auto;
  
   margin:auto;
   margin-top: 100px;
 }
 
 #menu-tile, #map-tile {
-margin: 25px;
+  margin:auto;
  /* border: 2px solid #3F0C1F;
   box-shadow: 0 0 5px #439fd4;*/
   background:  rgb(0, 0, 0);
+  width: 80vw;
 }
 
 
@@ -428,8 +431,8 @@ body {
     
   }
   #menu-tile, #specials-tile {
-    width: 80vw;
-    margin: 0 auto 15px;
+    width: 90vw;
+    margin: auto;
   }
 
   .menu-item-photo {
@@ -456,8 +459,9 @@ body {
   font-weight: 300;
   font-family:  Lora, Verdana, sans-serif;
   text-align: center;
-  width: 80vw;
+  width: 90vw;
   margin: auto;
+  text-align: center;
 }
 /*PROJECTS*/
 .project-card {
