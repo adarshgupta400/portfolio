@@ -326,13 +326,12 @@ h4 {
 
 /*resturant*/
 
-/* HOME PAGE */
+/*HOME PAGE*/
 .container .jumbotron {
   box-shadow: 0 0 50px #60baee;
   border: 5px solid #3F0C1F;
   max-width: 1200px;
   height: auto;
- 
   margin:auto;
   margin-top: 100px;
 }
@@ -365,6 +364,7 @@ body {
   background: rgba(0, 0, 0);
   font-family: 'Oxygen', sans-serif;
   margin: 0;
+  
 }
 
 /*mobile view*/
