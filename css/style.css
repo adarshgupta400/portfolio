@@ -378,7 +378,7 @@ body {
     padding-top: 10px;
     height: 80px;
   }
-  .navbar-brand h1 { /* Restaurant name */
+  .navbar-brand h1 { /* Restaurant name */ 
     padding-top: 10px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
@@ -397,16 +397,10 @@ body {
     font-size: 1em;
     margin-right: 5px;
   }
-
-  #call-btn > a {
-    font-size: 1.5em;
-    display: block;
-    margin: 0 20px;
-    padding: 10px;
-    border: 2px solid #fff;
-    background-color: #f6b319;
-    color: #951c49;
+  .navbar {
+    position: relative;
   }
+
 
   /* End Header */
 
